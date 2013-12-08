@@ -1,0 +1,516 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {
+	margin:0;
+	padding:0;
+}
+.bor {
+	border:#d6d6d6 1px solid;
+}
+.mt8 {
+	margin-top:8px;
+}
+.mb12 {
+	margin-bottom:12px;
+}
+.mt20 {
+	margin-top:20px;
+}
+.mb20 {
+	margin-bottom:20px;
+}
+.mtb10 {
+	margin:10px 0;
+}
+.ml10{margin-left:10px;}
+/*妈咪课堂-奇趣育儿-list,妈咪课堂-谣言-list*/
+.wrap {
+	width:1000px;
+	margin:0 auto;
+}
+.location {
+	height:26px;
+	padding:8px 0 0 10px;
+	color:#000;
+}
+.location a {
+	margin:0 4px;
+	color:#000;
+	font-size:13px;
+}
+.coup {
+	height:38px;
+	background:#ff3e4f;
+	width:1000px;
+	font-size:16px;
+}
+.coup h2 {
+	_display:inline;
+	color:#fff;
+	font-size:18px;
+	line-height:38px;
+	margin:0 12px 0 20px;
+}
+.coup span {
+	font-size:16px;
+	color:#fff;
+	font-weight:bold;
+	line-height:40px;
+	text-shadow: 2px 2px 2px #666;
+}
+.entry {
+	width:998px;
+	padding:16px 0;
+}
+.entry .pic {
+	margin:0 20px;
+	_display:inline
+}
+.entry .pic img {
+	width:265px;
+	height:177px;
+}
+.entry .period {
+	width:92px;
+	height:40px;
+	background:url(../images/list-bj.jpg) no-repeat left top;
+	line-height:38px;
+	font-size:16px;
+	color:#fff;
+	padding-left:16px;
+	margin-right:16px;
+	_display:inline
+}
+.entry .ment {
+	width:460px;
+	padding:18px 56px 0 0;
+}
+.entry .ment h2 {
+	font-size:16px;
+	color:#ff4254;
+	line-height:38px;
+}
+.entry .ment p {
+	font-size:14px;
+	line-height:24px;
+	margin-top:12px;
+	color:#585858;
+}
+.entry .bot {
+	width:152px;
+	height:40px;
+	background:url(../images/list-bj1.jpg) no-repeat;
+	display:block;
+	text-align:center;
+	line-height:40px;
+	font-size:16px;
+	color:#fff;
+	text-shadow: 2px 2px 2px #666;
+	font-weight:bold;
+	margin-top:86px;
+}
+.next a {
+	display:block;
+	float:left;
+	padding:15px 12px;
+	font-size:14px;
+	color:#d5d5d5;
+	border-radius:2px;
+	background:#9a9a9a;
+	margin-right:2px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.next a.now {
+	background:#ce1500;
+	color:#fff;
+}
+.next a:hover {
+	background:#ce1500;
+	color:#fff;
+}
+.next .up {
+	padding:15px 46px;
+	position:relative;
+}
+.next .up b {
+	position:absolute;
+	left:14px;
+}
+.next .last {
+	padding:15px 46px;
+	position:relative;
+}
+.next .last b {
+	position:absolute;
+	right:14px;
+}
+.back {
+	margin:24px 0 20px 302px;
+}
+.back1 { margin:24px 0 20px 158px;
+	 
+}
+/*妈咪课堂-画说小知识*/
+.know-nav {
+	margin:10px 0;
+}
+.know-nav a {
+	display:block;
+	float:left;
+	width:101px;
+	height:42px;
+	background:#f6f6f6;
+	color:#6b2b2b;
+	text-align:center;
+	line-height:42px;
+	margin-left:2px;
+	margin-bottom:5px;
+	font-size:13px;
+}
+.know-nav a:hover {
+	height:47px;
+	background:url(../images/know-navbj.jpg) no-repeat left top;
+	margin-bottom:0;
+	text-decoration:none;
+	color:#fff;
+}
+.know-nav .now {
+	height:47px;
+	background:url(../images/know-navbj.jpg) no-repeat left top;
+	margin-bottom:0;
+	text-decoration:none;
+	color:#fff;
+}
+.know-list {
+	padding:20px 24px;
+	width:950px;
+}
+.know-list dl dt {
+	width:253px;
+	height:151px;
+	padding:8px;
+	box-shadow:3px 3px 2px #d6d6d6;
+	border:#c0c0c0 1px solid;
+}
+.know-list dl dt img {
+	width:254px;
+	height:154px;
+}
+.know-list dl dd {
+	width:644px;
+	margin-top:16px;
+}
+.know-list dl dd h2 {
+	font-size:18px;
+	color:#ff4352;
+	border-bottom:#ff4352 2px solid;
+	height:28px;
+}
+.know-list dl dd p {
+	line-height:24px;
+	font-size:13px;
+	margin-top:10px;}
+
+.know-list dl dd p a {
+	color:#ff4352;
+}
+.know-list dl dd p a:link{color:#ff4352;}
+.know-list dl dd p a:active{color:#ff4352;}
+.know-list dl dd p a:visited{color:#ff4352;}
+/*妈咪课堂-怀孕期知识*/
+.coup .right {
+	width:400px;
+	font-size:12px;
+	margin-top:12px;
+}
+.coup .right img {
+	margin:0 0 0 7px;
+}
+.coup .right b {
+	color:#fff;
+}
+.coup .right .b {
+	font-weight:normal;
+}
+.coup .right a {
+	text-decoration:none;
+}
+.coup .right .a {
+	margin-left:30px;
+}
+.tips dl dt img {
+	width:327px;
+	height:196px;
+}
+.tips dl dd {
+	width:628px;
+	margin-left:14px;
+	_display:inline;
+}
+.tips dl dd h2 {
+	font-size:18px;
+	color:#ff4352;
+	border-bottom:#ff4352 2px solid;
+	height:30px;
+}
+.tips dl dd p {
+	font-size:13px;
+	color:#8f8f8f;
+	line-height:24px;
+	width:604px;
+	padding-right:12px;
+	border-right:#e2e2e2 2px solid;
+	position:relative;
+	margin-top:14px;
+}
+.tips dl dd p .dw {
+	position:absolute;
+	right:-10px;
+	top:30px;
+}
+.por {
+	margin-bottom:76px;
+}
+/*妈咪课堂-谣言*/
+.rum-nav {
+	margin:10px 0;
+}
+.rum-nav .study {
+	width:255px;
+	height:333px;
+	background:url(../images/rumor-bj1.jpg) no-repeat left top;
+	margin:12px 10px 0 0;
+}
+.rum-nav .study h2 {
+	margin:240px 0 0 50px;
+	color:#ff9243;
+	font-size:16px;
+}
+.rum-nav .test {
+	width:692px;
+	height:322px;
+	padding:12px 18px;
+	border:#e2e2e2 1px solid;
+	border-radius:2px;
+	background:#f6f6f6;
+}
+.rum-nav .test .set h3 {
+	width:212px;
+	overflow:hidden;
+	color:#994a2c;
+	font-size:16px;
+	height:36px;
+}
+.rum-nav .test .set p {
+	font-size:14px;
+	color:#98492b;
+	line-height:24px;
+}
+.rum-nav .test .set {
+	background:url(../images/rumor-bj2.jpg) no-repeat left top;
+	width:246px;
+	height:222px;
+	padding:100px 314px 0 132px;
+}
+
+.setting .sett{width:664px;}
+.setting .settingl {
+	width:660px;
+	height:230px;
+	border:3px solid #eaeaea;
+}
+.setting .mar {
+	border:7px solid #f5f3f4;
+	width:627px;
+	height:196px;
+	padding:20px 0 0 20px;
+}
+.setting dl.text dt img {
+	width:266px;
+	height:178px;
+}
+.setting dl dd {
+	width:325px;
+	margin-left:16px;
+	_display:inline;
+}
+.setting dl dd h2 {
+	font-size:18px;
+	color:#ff4352;
+	margin-bottom:16px;
+	line-height:24px;
+}
+.setting dl dd p{line-height:24px; font-size:13px; color:#585858;}
+.setting2 {
+	margin:15px 0;
+}
+.caption {
+	width:664px;
+	background:#ff3e4f;
+	height:38px;
+}
+.caption h2 {
+	_display:inline;
+	color:#fff;
+	font-size:18px;
+	line-height:38px;
+	margin:0 12px 0 20px;
+}
+.caption span {
+	font-size:14px;
+	color:#fff;
+	line-height:40px;
+}
+
+.dy-bt dl dt {
+	position:relative;
+}
+.dy-bt dl dt .dw1 {
+	width:260px;
+	height:28px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	background:#000;
+	filter:alpha(opacity=50);  
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+	padding-left:10px;
+	color:#fff;
+	  font-size:14px;
+	  line-height:28px;
+}
+.dy-bt .mar1 dt  img {
+	width:270px;
+	height:250px;
+}
+.dy-bt dl dd {
+	width:340px;
+	padding-right:6px;
+	line-height:18px;
+	font-size:13px;
+}
+.dy-bt dl dd h3 {
+	font-weight:normal;
+	font-size:14px;
+	color:#585858;
+	height:20px;
+}
+.dy-bt dl dd p{line-height:18px;}
+.dy-bt{width:662px;}
+.mar1{margin:16px 0 32px 20px;}
+.mar2{margin:24px 0 24px 26px;}
+.mar2 dt img{width:265px; height:177px;}
+.mb24{margin-bottom:24px;}
+.rumor-wb{padding:10px 0 5px; font-size:13px; color:#0177b5; line-height:20px; border-bottom:#d2d2d2 1px solid; width:664px}
+.rumor-wb img{margin:0 10px;}
+.field{width:664px; height:101px; background:url(../images/rumor-bjx.jpg) repeat-x; overflow:hidden;} 
+.field .textarea{width:628px; height:40px; margin:12px 0 10px 16px; font-size:14px; color:#000;}
+.field .bot .ment1{width:66px; height:24px; text-align:center; line-height:24px; background:#fff; font-size:12px; border:#d2d2d2 solid 1px; border-bottom:none; margin:12px 0 0 16px;display:inline;}
+.field .bot .ment2{font-size:18px; color:#98999b; margin-right:18px;width:114px;}
+.field .bot .ment2 span{font-size:14px;}
+.field .bot .ment2 a{display:block; width:50px; height:22px; text-align:center; line-height:22px; font-size:14px; font-weight:normal; color:#fff; background:#f32e3f; border:#ea192e 2px solid; border-radius:2px 2px 2px 2px; float:right; text-decoration:none;}
+.setting .cen{height:350px; width:664px; overflow:scroll; border-bottom:#d2d2d2 1px solid;}
+.setting .mb60{margin-bottom:60px;}
+.interaction{padding:14px 0; background:url(../images/rumor-wobj.jpg) repeat-x left bottom; margin:0 10px 0 18px;}
+.interaction .wb img{width:30px; height:30px;}
+.interaction .ms{width:578px; margin-left:10px; line-height:20px;}
+.interaction .ms span{color:#0078b5;}
+.interaction .sj{color:#9abcc8;}
+.interaction .sj a{color:#9abcc8; margin:0 6px;}
+.quiz{width:324px;}
+.quiz h2{font-size:18px; color:#FF4352; line-height:28px; width:324px; border-bottom:#FF4352 2px solid; height:30px;}
+.quiz h2 a{float:right; font-size:12px; padding-right:12px; background:url(../images/z_more.png) no-repeat right center; color:#808080;}
+.quiz ul{margin:10px 0 26px;}
+.quiz ul li{display:block; height:58px; line-height:58px; width:295px; margin-left:10px; color:#FF4352; font-size:13px; padding-left:17px; background:url(../images/rumor-btbj.jpg) no-repeat left center;}
+.quiz ul li span{color:#fff; margin-right:26px; font-size:16px;}
+.quiz ul li a{margin-left:16px; color:#575757;}
+.package{width:266px; margin:0 auto}
+.paget{padding:16px 0 48px;}
+.paget1{padding:15px 0;}
+.btt{height:25px; width:266px; background:#FF4352;}
+.btt h4{font-size:18px; color:#fff; font-size:14px; padding-left:8px; font-weight:bold;} 
+.package .capt{margin-bottom:5px;}
+.quiz .ckwx{width:279px; height:132px; background:url(../images/rumor-pic3.jpg) no-repeat; padding:64px 24px 24px 24px;}
+.quiz .ckwx p{line-height:20px; margin-bottom:14px; color:#fff;}
+
+
+/**奇趣育儿**/
+.qqye-nav{width:735px; height:371px; position:relative; margin-top:-16px;}
+.qqye-nav .dw2{position:absolute; left:438px; bottom:-55px;}
+.child{margin:15px 0 8px; width:998px;}
+.child-top{height:38px; width:998px;  text-align:center;}
+.child-bj{background:#ff3c4d;}
+.child-bj1{background:#ff7e00;}
+.child-bj2{background:#3ac175;}
+.child-top h2{line-height:38px; font-size:17px; color:#fff; height:34px; border-bottom:#fffe72 2px solid; width:998px;}
+.mar3{margin:16px 0 30px 22px;}
+.mar3  dt {
+	position:relative;
+}
+.mar3  dt .dw1 {
+	width:260px;
+	height:28px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	background:#000;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+	padding-left:10px;
+	color:#fff;
+	  font-size:14px;
+	  line-height:28px;
+}
+.mar3 dt  img {
+	width:270px;
+	height:250px;
+}
+.mar3 dd{width:656px; margin-left:18px;}
+.mar3 h3{font-size:13px; height:22px; line-height:13px; font-weight:normal;}
+.mar3 h3 img{margin-right:2px;}
+.rearing dd p{line-height:26px; text-indent:28px; font-size:13px;}
+
+.mar4{margin:22px 0 22px 26px;}
+.mar4 dd{width:580px; margin-right:24px;}
+.mar4 dd h3{font-size:17px; color:#5469ba; line-height:16px; font-weight:normal; height:24px;}
+.mar4 dd h3 img{margin-right:2px;}
+.little{padding:22px 24px 34px;}
+.little p{font-size:18px; line-height:36px; }
+.quiz1{margin-left:24px; width:288px; overflow:hidden;}
+.quiz1 h2{font-size:18px; color:#FF4352; line-height:26px; width:288px; border-bottom:#FF4352 2px solid; height:32px; }
+.quiz1 dl dt img{width:288px; height:137px;}
+.quiz1 dl dd h4{font-size:16px; line-height:16px; height:24px;}
+.quiz1 dl dd{margin:0 4px; width:280px;}
+.quiz1 dl dd p{line-height:20px; font-size:14px;}
+
+.setting .mb38{margin-bottom:38px;}
+
+.rum-nav .study1 {
+	width:229px;
+	height:343px;
+	background:url(../images/rumor-bj3.jpg) no-repeat left top;
+	margin:12px 10px 0 14px;
+	display:inline;
+}
+.rum-nav .study1 h2 {
+	margin:257px 0 0 74px;
+	color:#ff9243;
+	font-size:23px;
+}
+
+
+
+
+
+
+
+
+
+
+
