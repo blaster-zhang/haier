@@ -23,7 +23,7 @@ class Controller extends CController
 	
 	public function actions(){
 		
-		$actionsPath = Yii::app()->basePath.'/config/actions/'. $this->getId() .'.php';
+		$actionsPath = Yii::app()->basePath.'/config/actions/'. strtolower($this->getId()) .'.php';
 		if (is_file($actionsPath)) {
 			$actions = require_once($actionsPath);
 			if (is_array($actions)) {
